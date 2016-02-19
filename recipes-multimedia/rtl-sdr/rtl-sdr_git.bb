@@ -1,6 +1,6 @@
 SUMMARY = "Software to turn the RTL2832U into an SDR"
 HOMEPAGE = "http://sdr.osmocom.org/trac/wiki/rtl-sdr"
-LICENSE = "GPL-2.0"
+LICENSE = "GPLv2"
 LIC_FILES_CHKSUM = "file://COPYING;md5=751419260aa954499f7abaabaa882bbe"
 DEPENDS = "libusb1"
 
