@@ -6,7 +6,7 @@ DEPENDS = "gstreamer1.0 libsndfile1 fftwf rtl-sdr libsamplerate0"
 RDEPENDS_${PN} = "gstreamer1.0-plugins-good-pulse"
 
 SRC_URI = "git://github.com/PDXostc/${PN}.git;protocol=https"
-SRCREV = "cf3655f933b737c9b5be6aeeb47f7801f09779f9"
+SRCREV = "cb1e1472cd55c148c816835f2e1fb063db00eb24"
 
 S = "${WORKDIR}/git"
 
