@@ -11,6 +11,9 @@ S = "${WORKDIR}/git"
 
 inherit autotools pkgconfig systemd
 
+KERNEL_MODULE_PROBECONF = "dvb_usb_rtl28xxu"
+module_conf_dvb_usb_rtl28xxu = "blacklist dvb_usb_rtl28xxu"
+
 FILES_${PN} += " \
   ${datadir}/dbus-1/services/com.jlr.fmradioservice.service \
   ${libdir}/gstreamer-1.0/libgstsdrjfm.so \
